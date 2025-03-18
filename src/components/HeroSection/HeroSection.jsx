@@ -22,6 +22,18 @@ const HeroSection = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Add smooth scrolling function for navigation links
+  const scrollToSection = (e, targetId) => {
+    e.preventDefault();
+    const targetElement = document.querySelector(targetId);
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  };
+
   // Navbar animation variants
   const navbarVariants = {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -90,6 +102,7 @@ const HeroSection = () => {
             variants={linkVariants}
             initial="initial"
             whileHover="hover"
+            onClick={(e) => scrollToSection(e, "#event")}
           >
             About
           </motion.a>
@@ -99,6 +112,7 @@ const HeroSection = () => {
             variants={linkVariants}
             initial="initial"
             whileHover="hover"
+            onClick={(e) => scrollToSection(e, "#team")}
           >
             Teams
           </motion.a>
@@ -108,6 +122,7 @@ const HeroSection = () => {
             variants={linkVariants}
             initial="initial"
             whileHover="hover"
+            onClick={(e) => scrollToSection(e, "#UpcomingEventsSection")}
           >
             Upcoming Events
           </motion.a>
@@ -117,6 +132,7 @@ const HeroSection = () => {
             variants={linkVariants}
             initial="initial"
             whileHover="hover"
+            onClick={(e) => scrollToSection(e, "#footer")}
           >
             Contact
           </motion.a>
