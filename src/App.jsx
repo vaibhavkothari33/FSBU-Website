@@ -1,9 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
-
-// Import components
-import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import MeetTheTeamSection from "./components/Teams/MeetTheTeamSection";
 import EventsSection from "./components/Event/EventSection";
