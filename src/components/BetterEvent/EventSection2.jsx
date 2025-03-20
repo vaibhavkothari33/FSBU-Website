@@ -15,12 +15,12 @@ const events = [
     leftCard: "/events/Subtract.png",
   },
   {
-    image: "/events/event1.png",
+    image: "/events/phantasialeft.jpg",
     title: "Phantasia",
     date: "March 23, 2024",
     description:
       "Phantasia united creatives in design and development challenges, fostering teamwork and innovation. Despite some struggles, it was a valuable learning experience.",
-    leftCard: "/events/Subtract.png",
+    leftCard: "/events/phantasialeft2.jpg",
   },
   {
     image: "/events/event1.png",
@@ -47,28 +47,28 @@ const events = [
     leftCard: "/events/Subtract.png",
   },
   {
-    image: "/events/event1.png",
+    image: "/events/centreHTML.jpg",
     title: "HTML & CSS Workshop",
     date: "November 22-23, 2024",
     description:
       "The HTML & CSS Workshop by the Full Stack Club built a strong web development foundation. Despite initial challenges, structured guidance helped participants gain confidence.",
-    leftCard: "/events/Subtract.png",
+    leftCard: "/events/leftHTML.jpg",
   },
   {
-    image: "/events/event1.png",
+    image: "/events/9.2left.jpg",
     title: "9.2 SGPA",
     date: "September 10, 2024",
     description:
       "9.2 SGPA, led by Full Stack Club seniors, provided study strategies and resources for academic success. Despite the overwhelming material, it built a strong support network.",
-    leftCard: "/events/Subtract.png",
+    leftCard: "/events/9.2centre.jpg",
   },
   {
-    image: "/events/event1.png",
+    image: "/events/carnivalcentre.jpg",
     title: "Pirates of Fullstack",
     date: "August 23, 2024",
     description:
       "At Club Carnival, Pirates of Fullstack, featured coding puzzles, design challenges, and a treasure hunt. Despite some tricky clues, the event was a thrilling success.",
-    leftCard: "/events/Subtract.png",
+    leftCard: "/events/carnivalLeft.jpg",
   },
 ];
 
